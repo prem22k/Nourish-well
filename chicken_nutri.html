@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NourishWell - Pre-Prepared Meals for Specific Diets</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    
+    <script src="script.js"></script>
+</head>
+<body>
+    <div></div>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="NourishWell Logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="#">ORDER NOW</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Revolutionizing Meal Prep</h1>
+            <p>Delicious, convenient, and tailored to your dietary needs</p>
+            <br />
+            <br />
+            <a href="#" class="hero-btn">Visit Us to know More</a>
+        </div>
+    </section>
+
+    <section class="DietPlans">
+        <h1>Customization</h1>
+        <p>Ingredients List</p>
+        <h2>1. Chicken breast (sliced into thin strips)</h2>
+        <table border="1">
+            <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr id="row1">
+                <td id="cell1">Total Fat  </td>
+                <td>3.6g</td>
+            </tr>
+            <tr id="row2">
+                <td id="cell2">Saturated Fat</td>
+                <td>1g</td>
+            </tr>
+            <tr id="row3">
+                <td id="cell3">Cholesterol  </td>
+                <td>85mg</td>
+            </tr>
+            <tr id="row4">
+                <td id="cell4">Sodium</td>
+                <td>74mg</td>
+            </tr>
+            <tr id="row5">
+                <td id="cell5">Potassium </td>
+                <td>256mg</td>
+            </tr>
+            <tr id="row6">
+                <td id="cell6">Protein </td>
+                <td>31g</td>
+            </tr>
+        </table>
+        <h2>2. Bell peppers (sliced)</h2>
+        <table border="1">
+            <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr id="row1">
+                <td id="cell1">Total Fat  </td>
+                <td>0.2g</td>
+            </tr>
+            <tr id="row2">
+                <td id="cell2">Saturated Fat</td>
+                <td>0.1g</td>
+            </tr>
+            <tr id="row3">
+                <td id="cell3">Cholesterol  </td>
+                <td>0mg</td>
+            </tr>
+            <tr id="row4">
+                <td id="cell4">Sodium</td>
+                <td>33mg</td>
+            </tr>
+            <tr id="row5">
+                <td id="cell5">Potassium </td>
+                <td>316mg</td>
+            </tr>
+            <tr id="row6">
+                <td id="cell6">Protein </td>
+                <td>2.8g</td>
+            </tr>
+        </table>
+        <h2>3. Carrots (sliced into thin strips or matchsticks)</h2>
+        <table border="1">
+            <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr id="row1">
+                <td id="cell1">Total Fat  </td>
+                <td>0.2g</td>
+            </tr>
+            <tr id="row2">
+                <td id="cell2">Saturated Fat</td>
+                <td>0g</td>
+            </tr>
+            <tr id="row3">
+                <td id="cell3">Cholesterol  </td>
+                <td>0mg</td>
+            </tr>
+            <tr id="row4">
+                <td id="cell4">Sodium</td>
+                <td>69mg</td>
+            </tr>
+            <tr id="row5">
+                <td id="cell5">Potassium </td>
+                <td>320mg</td>
+            </tr>
+            <tr id="row6">
+                <td id="cell6">Protein </td>
+                <td>0.9g</td>
+            </tr>
+        </table>
+        <h2>4. Ginger (minced or grated)</h2>
+        <table border="1">
+            <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr id="row1">
+                <td id="cell1">Total Fat  </td>
+                <td>0.8g</td>
+            </tr>
+            <tr id="row2">
+                <td id="cell2">Saturated Fat</td>
+                <td>0.2g</td>
+            </tr>
+            <tr id="row3">
+                <td id="cell3">Cholesterol  </td>
+                <td>0mg</td>
+            </tr>
+            <tr id="row4">
+                <td id="cell4">Sodium</td>
+                <td>13mg</td>
+            </tr>
+            <tr id="row5">
+                <td id="cell5">Potassium </td>
+                <td>415mg</td>
+                
+            </tr>
+            <tr id="row6">
+                <td id="cell6">Protein </td>
+                <td>1.8</td>
+            </tr>
+        </table>
+        <h2>5. Garlic (minced)</h2>
+        <table border="1">
+            <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr id="row1">
+                <td id="cell1">Total Fat  </td>
+                <td>3.6g</td>
+            </tr>
+            <tr id="row2">
+                <td id="cell2">Saturated Fat</td>
+                <td>1g</td>
+            </tr>
+            <tr id="row3">
+                <td id="cell3">Cholesterol  </td>
+                <td>85mg</td>
+            </tr>
+            <tr id="row4">
+                <td id="cell4">Sodium</td>
+                <td>74mg</td>
+            </tr>
+            <tr id="row5">
+                <td id="cell5">Potassium </td>
+                <td>256mg</td>
+            </tr>
+            <tr id="row6">
+                <td id="cell6">Protein </td>
+                <td>2.8g</td>
+            </tr>
+        </table>
+        <h2>6. Broccoli florets</h2>
+        <table border="1">
+            <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr id="row1">
+                <td id="cell1">Total Fat  </td>
+                <td>3.6g</td>
+            </tr>
+            <tr id="row2">
+                <td id="cell2">Saturated Fat</td>
+                <td>1g</td>
+            </tr>
+            <tr id="row3">
+                <td id="cell3">Cholesterol  </td>
+                <td>85mg</td>
+            </tr>
+            <tr id="row4">
+                <td id="cell4">Sodium</td>
+                <td>74mg</td>
+            </tr>
+            <tr id="row5">
+                <td id="cell5">Potassium </td>
+                <td>256mg</td>
+            </tr>
+        </table>
+        <h2>7. Soy sauce</h2>
+        <table border="1">
+            <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr id="row1">
+                <td id="cell1">Total Fat  </td>
+                <td>3.6g</td>
+            </tr>
+            <tr id="row2">
+                <td id="cell2">Saturated Fat</td>
+                <td>1g</td>
+            </tr>
+            <tr id="row3">
+                <td id="cell3">Cholesterol  </td>
+                <td>85mg</td>
+            </tr>
+            <tr id="row4">
+                <td id="cell4">Sodium</td>
+                <td>74mg</td>
+            </tr>
+            <tr id="row5">
+                <td id="cell5">Potassium </td>
+                <td>256mg</td>
+            </tr>
+        </table>
+        <h2>8. Salt and pepper</h2>
+        <table border="1">
+            <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr id="row1">
+                <td id="cell1">Total Fat  </td>
+                <td>3.6g</td>
+            </tr>
+            <tr id="row2">
+                <td id="cell2">Saturated Fat</td>
+                <td>1g</td>
+            </tr>
+            <tr id="row3">
+                <td id="cell3">Cholesterol  </td>
+                <td>85mg</td>
+            </tr>
+            <tr id="row4">
+                <td id="cell4">Sodium</td>
+                <td>74mg</td>
+            </tr>
+            <tr id="row5">
+                <td id="cell5">Potassium </td>
+                <td>256mg</td>
+            </tr>
+        </table>
+        <h2>Olive oil</h2>
+        <table border="1">
+            <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr id="row1">
+                <td id="cell1">Total Fat  </td>
+                <td>3.6g</td>
+            </tr>
+            <tr id="row2">
+                <td id="cell2">Saturated Fat</td>
+                <td>1g</td>
+            </tr>
+            <tr id="row3">
+                <td id="cell3">Cholesterol  </td>
+                <td>85mg</td>
+            </tr>
+            <tr id="row4">
+                <td id="cell4">Sodium</td>
+                <td>74mg</td>
+            </tr>
+            <tr id="row5">
+                <td id="cell5">Potassium </td>
+                <td>256mg</td>
+            </tr>
+        </table>
+        <h2>1. Chicken breast (sliced into thin strips)</h2>
+        <table border="1">
+            <tr>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr id="row1">
+                <td id="cell1">Total Fat  </td>
+                <td>3.6g</td>
+            </tr>
+            <tr id="row2">
+                <td id="cell2">Saturated Fat</td>
+                <td>1g</td>
+            </tr>
+            <tr id="row3">
+                <td id="cell3">Cholesterol  </td>
+                <td>85mg</td>
+            </tr>
+            <tr id="row4">
+                <td id="cell4">Sodium</td>
+                <td>74mg</td>
+            </tr>
+            <tr id="row5">
+                <td id="cell5">Potassium </td>
+                <td>256mg</td>
+            </tr>
+        </table>
+    </section>
+        
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>About Us</h3>
+                <p>
+                  At NourishWell, we believe that eating well should be convenient, delicious, and tailored to your dietary needs. We understand the challenges of finding healthy meal options that fit specific diets like keto, vegan, and gluten-free, which is why we've made it our mission to revolutionize meal prep.
+                </p>
+            </div>
+            <div class="box">
+                <h3>Branch locations</h3>
+                <a href="#">All over India </a>
+            </div>
+            <div class="box">
+                <h3>Quick links</h3>
+                <a href="#">home</a>
+                <a href="#">Order Now</a>
+                <a href="#">About Us</a>
+                <a href="#">contact</a>
+            </div>
+            <div class="box">
+                <h3>Follow Us</h3>
+                <a href="#">facebook</a>
+                <a href="#">instagram</a>
+                <a href="#">twitter</a>
+            </div>
+        </div
+
+        <h1 class="credit">
+            created by <span> Status200 </span> | all rights reserved!
+          </h1>
+        </section>
+      </body>
+    </html>

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NourishWell - Pre-Prepared Meals for Specific Diets</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 50%;
+            width: auto;
+        }
+        .brand-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: auto; 
+        }
+        .swiper-slide img {
+            min-width: auto; 
+            min-height: auto;
+        }
+    </style>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div></div>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="NourishWell Logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="#">ORDER NOW</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Revolutionizing Meal Prep</h1>
+            <p>Delicious, convenient, and tailored to your dietary needs</p>
+            <br />
+            <br />
+            <a href="#" class="hero-btn">Visit Us to know More</a>
+        </div>
+    </section>
+
+    <section class="DietPlans">
+        <h1>Diet Plans</h1>
+        <p>Explore our customizable meal plans tailored to specific diets</p>
+        <section class="packages" id="packages">
+            <div class="box-container">
+                <div class="box">
+                    <img src="images/keto.jpeg" alt="Keto Diet Plan" />
+                    <div class="content">
+                        <h3> Keto Diet Plan</h3>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            
+                        </div>
+                        
+                        <p>The ketogenic diet, often referred to as the keto diet...</p>
+                        <a href="keto.html" class="herro-btn">know more...</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/vegan.jpeg" alt="Vegan Diet Plan" />
+                    <div class="content">
+                        <h3> Vegan Diet Plan</h3>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            
+                        </div>
+                        <p>A vegan-based diet, also known simply as veganism...</p>
+                        <a href="vegan.html" class="herro-btn">know more...</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/paleo.jpg" alt="Paleo Diet Plan" />
+                    <div class="content">
+                        <h3> Paleo Diet Plan</h3>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            
+                        </div>
+                        <p>The paleolithic diet, often referred to as the paleo diet or caveman diet...</p>
+                        <a href="paleo.html" class="herro-btn">know more...</a>
+                    </div>
+                </div>
+                <div class="box">
+                  <img src="images/gluten.jpg" alt="Gluten-Free Diet Plan" />
+                  <div class="content">
+                      <h3> Gluten-Free Diet Plan</h3>
+                      <div class="stars">
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          
+                      </div>
+                      <p>A gluten-free diet is a dietary approach that eliminates gluten...</p>
+                      <a href="gluten.html" class="herro-btn">know more...</a>
+                  </div>
+              </div>
+              <div class="box">
+                <img src="images/mid.jpg" alt="Mediterranean Diet Plan" />
+                <div class="content">
+                    <h3> Mediterranean Diet Plan</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        
+                    </div>
+                    <p>The Mediterranean diet is a dietary pattern inspired by the traditional eating...</p>
+                    <a href="med.html" class="herro-btn">know more...</a>
+                </div>
+            </div>
+            <div  onclick="redirectToPage()" class="box">
+              <img src="images/low.jpg" alt="Low-Carb Diet Plan" />
+              <div class="content">
+                  <h3> Low-Carb Diet Plan</h3>
+                  <div class="stars">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      
+                  </div>
+                  <p>A low-carb diet is a dietary approach that restricts the intake of carbohydrates...</p>
+                  <a href="low.html" class="herro-btn">know more...</a>
+              </div>
+          </div>
+              
+            </div>
+        </section>
+    </section>
+
+    <section class="brand-container">
+        <div class="swiper-container brand-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="images/brand1.jpg" alt="Image 1" /></div>
+                
+                <!-- Add more swiper-slide for other brand images -->
+            </div>
+        </div>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>About Us</h3>
+                <p>
+                  At NourishWell, we believe that eating well should be convenient, delicious, and tailored to your dietary needs. We understand the challenges of finding healthy meal options that fit specific diets like keto, vegan, and gluten-free, which is why we've made it our mission to revolutionize meal prep.
+                </p>
+            </div>
+            <div class="box">
+                <h3>Branch locations</h3>
+                <a href="#">All over India </a>
+            </div>
+            <div class="box">
+                <h3>Quick links</h3>
+                <a href="#">home</a>
+                <a href="#">Order Now</a>
+                <a href="#">About Us</a>
+                <a href="#">contact</a>
+            </div>
+            <div class="box">
+                <h3>Follow Us</h3>
+                <a href="#">facebook</a>
+                <a href="#">instagram</a>
+                <a href="#">twitter</a>
+            </div>
+        </div
+
+        <h1 class="credit">
+            created by <span> Status200 </span> | all rights reserved!
+          </h1>
+        </section>
+      </body>
+    </html>

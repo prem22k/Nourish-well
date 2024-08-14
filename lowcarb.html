@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NourishWell - Pre-Prepared Meals for Specific Diets</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 1;
+            height: 50%;
+            width: auto;
+         
+        }
+        .brand-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: auto; 
+            
+        }
+        .swiper-slide img {
+            min-width: 96%; 
+            min-height: auto;
+        }
+    </style>
+
+</head>
+<body>
+    <div></div>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="NourishWell Logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="#">ORDER NOW</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Revolutionizing Meal Prep</h1>
+            <p>Delicious, convenient, and tailored to your dietary needs</p>
+            <br />
+            <br />
+            <a href="#" class="hero-btn">Visit Us to know More</a>
+        </div>
+    </section>
+
+    <section class="DietPlans">
+        <h1>Low-Carb Diet Plan</h1>
+        <p>What are you craving?</p>
+        <section class="packages" id="packages">
+            <div class="box-container">
+                <div class="box">
+                    <img src="images/paneer.jpg" alt="Palak Paneer" />
+                    <div class="content">
+                        <h3> Palak Paneer</h3>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            
+                        </div>
+                        
+                        <p>Spinach and cottage cheese cooked in a flavorful blend of spices and cream.</p>
+                        
+                    </div>
+                </div>
+                <div onclick="redirect()" class="box">
+                    <img src="images/chicken.jpg" alt="Chicken and Vegetable Stir-Fry" />
+                    <div class="content">
+                        <h3> Chicken and Vegetable Stir-Fry</h3>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            
+                        </div>
+                        <p> Tender pieces of chicken breast cooked with colorful vegetables like bell peppers, broccoli, and carrots, seasoned with ginger, garlic, and soy sauce.</p>
+                        
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="images/lentil.jpg" alt="Lentil Soup" />
+                    <div class="content">
+                        <h3> Lentil Soup</h3>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            
+                        </div>
+                        <p>A hearty soup made with lentils, tomatoes, carrots, and spinach, seasoned with Indian spices like cumin, turmeric, and garam masala.
+                        </p>
+                        
+                    </div>
+                </div>
+                <div class="box">
+                  <img src="images/cauli.jpg" alt="Cauliflower and Pea Curry" />
+                  <div class="content">
+                      <h3> Cauliflower and Pea Curry</h3>
+                      <div class="stars">
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          
+                      </div>
+                      <p> Cauliflower florets and green peas cooked in a tomato-based curry sauce with onions and spices, served with a side of brown rice or quinoa.
+                    </p>
+                      
+                  </div>
+              </div>
+              <div class="box">
+                <img src="images/egg.jpg" alt="Egg Curry" />
+                <div class="content">
+                    <h3> Egg Curry</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        
+                    </div>
+                    <p> Hard-boiled eggs simmered in a spiced tomato-onion gravy, garnished with fresh cilantro leaves.</p>
+                    
+                </div>
+            </div>
+            <div class="box">
+              <img src="images/baig.jpg" alt="Baingan Bharta" />
+              <div class="content">
+                  <h3> Baingan Bharta</h3>
+                  <div class="stars">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      
+                  </div>
+                  <p>Roasted eggplant mashed and cooked with onions, tomatoes, and spices.</p>
+                 
+              </div>
+          </div>
+          
+            </div>
+            <div id="popup" class="popup">
+                <div class="popup-content">
+                  <h2>Meal Details</h2>
+                  <p>This is a popup with more details about the selected meal.</p>
+                  <button onclick="hidePopup()">Close</button>
+                </div>
+              </div>
+        </section>
+    </section>
+
+    <section class="brand-container">
+        <div class="swiper-container brand-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="images/brand1.jpg" alt="Image 1" /></div>
+               
+                <!-- Add more swiper-slide for other brand images -->
+            </div>
+        </div>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>About Us</h3>
+                <p>
+                  At NourishWell, we believe that eating well should be convenient, delicious, and tailored to your dietary needs. We understand the challenges of finding healthy meal options that fit specific diets like keto, vegan, and gluten-free, which is why we've made it our mission to revolutionize meal prep.
+                </p>
+            </div>
+            <div class="box">
+                <h3>Branch locations</h3>
+                <a href="#">All over India </a>
+            </div>
+            <div class="box">
+                <h3>Quick links</h3>
+                <a href="#">home</a>
+                <a href="#">Order Now</a>
+                <a href="#">About Us</a>
+                <a href="#">contact</a>
+            </div>
+            <div class="box">
+                <h3>Follow Us</h3>
+                <a href="#">facebook</a>
+                <a href="#">instagram</a>
+                <a href="#">twitter</a>
+            </div>
+        </div
+
+        <h1 class="credit">
+            created by <span> Status200 </span> | all rights reserved!
+          </h1>
+        </section>
+      </body>
+    </html>
