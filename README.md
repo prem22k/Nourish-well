@@ -1,11 +1,11 @@
-
 # NourishWell 🍴✨  
 **Revolutionizing Meal Prep for Your Specific Dietary Needs**
 
 ---
 
 ## 📖 Overview  
-Welcome to **NourishWell**! Our mission is simple: make healthy eating effortless, delicious, and tailored to your lifestyle. Whether you're keto, vegan, paleo, or gluten-free, we’ve got you covered with pre-prepared meal plans designed to fit your unique needs.  
+Welcome to **NourishWell**! 
+Our mission is simple: make healthy eating effortless, delicious, and tailored to your lifestyle. Whether you're keto, vegan, paleo, or gluten-free, we’ve got you covered with pre-prepared meal plans designed to fit your unique needs.  
 
 This project was created during my very first hackathon as I ventured into the world of web development. With zero prior experience, this became my stepping stone into the exciting domain of frontend development. It's not perfect, but it's the start of something incredible. 🚀  
 
@@ -47,7 +47,7 @@ This project was created during my very first hackathon as I ventured into the w
 
 1. Clone the repository:  
    ```bash  
-   git clone https://github.com/<your-username>/nourishwell.git  
+   git clone https://github.com/prem22k/Nourish-well.git  
    ```  
 
 2. Open the `index.html` file in your browser to explore the homepage.  
@@ -56,19 +56,9 @@ This project was created during my very first hackathon as I ventured into the w
 
 ---
 
-## 📸 Screenshots  
-
-- **Landing Page**: A clean hero section with call-to-action buttons.  
-- **Diet Plans**: Cards showcasing different diet plans with links to more details.  
-- **Footer**: A simple yet effective section to wrap up the page with quick links and social media icons.  
-
-> Add some screenshots here to make the README visually appealing.  
-
----
-
 ## 🤝 Contribution  
 
-This was a beginner-level project, and I’m excited to improve it further. Suggestions, ideas, and pull requests are welcome!  
+This was a v v beginner-level project, and I’m excited to improve it further. Suggestions, ideas, and pull requests are welcome!  
 
 ---
 
@@ -78,7 +68,7 @@ A huge thanks to the mentors and participants of the hackathon for inspiring thi
 
 ---
 
-### 🌟 Created with passion and curiosity by [Prem Sai](https://github.com/<your-username>)  
+### 🌟 Created with passion and curiosity by [Prem Sai](https://github.com/prem22k)  
 
 ---
 
